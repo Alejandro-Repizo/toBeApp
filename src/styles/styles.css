@@ -1,0 +1,5 @@
+/* Estilos base */
+@import url('./base/_base.css');
+
+/* Variables globales */
+@import url('./base/_variables.css');

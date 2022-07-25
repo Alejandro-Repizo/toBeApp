@@ -1,0 +1,24 @@
+/* variables */
+
+
+/* Reseteamos los estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos base */
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*
+1. Posicionamiento - position
+2. Modelo de caja (Box model) - margin, padding...
+3. Tipografia.
+4. Visuales.
+5. Otros.
+*/

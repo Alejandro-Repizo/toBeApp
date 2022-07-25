@@ -1,0 +1,11 @@
+.content {
+    max-width: 1000px;
+    width: 100%;
+    height: max-content;
+    min-height: calc(100% - 6vh);
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    background-color: var(--white);
+    margin-top: 6vh;
+    /* border: 1px solid red; */
+}

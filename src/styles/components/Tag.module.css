@@ -1,0 +1,23 @@
+
+.tag {
+    padding: .3rem 1.2rem;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 9px;
+    border: 1px solid #4894ce;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.tag:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.tag:hover {
+    background-color: #4894ce;
+}
+
+.tag:active {
+    transform: translateY(2px);
+}

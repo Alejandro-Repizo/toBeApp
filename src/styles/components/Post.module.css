@@ -1,0 +1,134 @@
+.post {
+    width: 100%;
+    min-height: 500px;
+    padding: 1.8rem 2rem;
+    margin: 1.5rem 0;
+    background-color: var(--white);
+    border-radius: 14px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 10%);
+}
+
+.post__header {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.post__avatar { 
+    width: 45px;
+    height: 45px;
+    border: 1px solid #dbdbdb;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.post__avatar > img { 
+    width: 100%;
+    height: 100%;
+}
+
+.post__username {
+    border: none;
+    background-color: var(--white);
+    cursor: pointer;
+    font-size: 1.375rem;
+    font-weight: bold;
+    letter-spacing: .4px;
+}
+
+
+.post__username:active {
+    transform: translateY(2px);
+}
+
+.post__image {
+    margin: 1.6rem 0;
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: var(--black);
+    border: 1px solid #dbdbdb;
+    overflow: hidden;
+}
+
+.post__image > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.post__data {
+    display: block;
+}
+
+.post__reactions {
+    margin-bottom: 1.4rem;
+    width: 100%;
+    display: inline-flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.reaction i{
+    font-size: 1.625rem;
+}
+
+.reaction {
+    font-size: 1.285rem;
+    font-weight: bold;
+}
+
+.reaction--hearth i {
+    color: #ee4959;
+}
+
+.reaction--comment i {
+    color: var(--secondary-color);
+}
+
+.reaction__btn {
+    margin: 0 .4rem;
+    font-size: 1.285rem;
+    font-weight: bold;
+    border: none;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.reaction__btn:active {
+    transform: translateY(2px);
+}
+
+.post__information {
+    /* border: 1px solid red; */
+    font-size: 1.235rem;
+}
+
+.post__tags {
+    /* border: 1px solid red; */
+    padding: .8rem .7rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: .5rem;
+    row-gap: .3rem;
+}
+
+.tag {
+    padding: .1rem 1.2rem;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 9px;
+    border: 1px solid #4894ce;
+    font-size: 12px;
+}

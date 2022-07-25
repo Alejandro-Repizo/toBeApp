@@ -1,0 +1,93 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d2d2d2;
+    background-color: var(--white);
+    position: fixed;
+}
+
+.content {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex: 1 1 auto;
+}
+
+.logo i {
+    font-size: 28px;
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.information {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.user {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user figure {
+    order: 1;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 1px solid #d9d9d9;
+}
+
+.user p {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .3px;
+}
+
+.user figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.exit {
+    margin: 0 1.425rem;
+}
+
+.exit button {
+    background-color: transparent;
+    border: none;
+    padding: 7px 10px;
+    transition: color .3s ease;
+    cursor: pointer;
+}
+
+.exit button:active {
+    transform: translateY(2px);
+
+}
+
+.exit button:active i, .exit button:hover i {
+    color: var(--primary-color);
+}
+
+.exit button:focus {
+    outline: 3px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+.exit button i {
+    font-size: 1.6rem;
+    color: var(--secondary-color);
+}
